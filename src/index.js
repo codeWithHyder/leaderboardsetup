@@ -18,7 +18,7 @@ const showScore = async () => {
 
       scores.forEach((item) => {
         const list = document.createElement('li');
-        //list.style.backgroundColor = 'lightgrey';
+        // list.style.backgroundColor = 'lightgrey';
         list.innerHTML = `
       ${item.user} :    ${item.score}`;
         recentList.appendChild(list);
