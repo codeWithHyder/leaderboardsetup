@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
- <h3><b>Leaderboard is a web site for learning Apis, ES6 modules and webpack
+ <h3><b>Leaderboard is a web site for learning APIs, ES6 modules and webpack
  and it is a simple website that displays a list of name and scres by diffrent people</b></h3>
 
 </div>

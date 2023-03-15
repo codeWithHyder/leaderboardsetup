@@ -1,20 +1,16 @@
-const submitFunc = () => {
-  const getName = document.querySelector('.name');
-  const getScore = document.querySelector('.score');
-  const submitBtn = document.querySelector('.submit');
-  // blank array to create array of objects with name and score properties
-  const scores = [];
-  class NameAndScore {
-    constructor(name, score) {
-      this.name = name;
-      this.score = score;
-    }
-  }
-
-  // add event listener on button submit
-  submitBtn.addEventListener('click', () => {
-    const mynameandscore = new NameAndScore(getName.value, getScore.value);
-    scores.push(mynameandscore);
-  });
+const addScore = async (url, name, score) => {
+  await fetch(url, {
+    method: 'POST',
+    body: JSON.stringify({
+      user: name,
+      score: score,
+    }),
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+  }).then((response) => response.json());
 };
-export default submitFunc;
+
+export default addScore;
+  
+

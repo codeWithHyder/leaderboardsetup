@@ -18,26 +18,21 @@
         <h1>Leaderboard</h1>
     </div>
    <div class="container">
-    <!-----------recent scores------------------------->
+    <!-----------updated scores------------------------->
     <div class="recentScores">
-      <div class="recentscores-title"><h4>Recent scores</h4><button type="submit" id="submit" name="submit">Refresh<i class="fa-solid fa-arrows-rotate"></i></button></div>
+      <div class="recentscores-title"><h4>Recent scores</h4><button type="submit" id="refresh" name="refresh">Refresh<i class="fa-solid fa-arrows-rotate"></i></button></div>
       <div class="recentScores-list">
-        <ul class="recent-list">
-        <li>Hyder : 20</li>
-        <li>Hyder : 30</li>
-        <li>Hyder : 40</li>
-        <li>Hyder : 50</li>
-        <li>Hyder : 60</li>
-        <li>Hyder : 70</li>
-        <li>Hyder : 80</li>
-      </ul></div>
+        <ul class="recent-list" id="recent-list">
+        
+        </ul>
+      </div>
     </div>
     <!------------add scores--------------------------->
     <div class="addScores">
       <h3>Add your score </h3>
       <form method="post">
-        <input type="text" id="name" class="name" placeholder=" your name " required>
-        <input type="number" id="score" class="score" placeholder="Your score" required>
+        <input type="text" id="your-name" class="your-name" placeholder=" your name " required>
+        <input type="number" id="your-score" class="your-score" placeholder="Your score" required>
         <button type="submit" name="submit" id="submit" class="submit">Submit</button>
       </form>
     </div>
