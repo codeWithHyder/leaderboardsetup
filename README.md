@@ -1,10 +1,10 @@
-# To Do List
+# Leaderboard
 
 <a name="readme-top"></a>
 
 <div align="center">
- <h3><b>To Do List is a web site for learning ES6 modules and webpack
- and it is a simple website that displays a list of To do tasks and allows you to add and remove tasks from that list.</b></h3>
+ <h3><b>Leaderboard is a web site for learning Apis, ES6 modules and webpack
+ and it is a simple website that displays a list of name and scres by diffrent people</b></h3>
 
 </div>
 
@@ -37,10 +37,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To-Do-List] <a name="about-project"></a>
+# 📖 [leaderboard] <a name="about-project"></a>
 
-**[To Do List]** is a web app. for learning ES6 modules and webpack,
-and it is a simple website that displays a list of To do tasks and allows you to add and remove tasks from that list.
+**[Leaderboard]** is a web app. for learning APIs, ES6 modules and webpack,
+and it is a simple website that displays list of name score of different people.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,6 +65,7 @@ and it is a simple website that displays a list of To do tasks and allows you to
 - **[css]**
 - **[Javascript]**
 - **[Webpack]**
+- **[gitflow]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,7 +73,7 @@ and it is a simple website that displays a list of To do tasks and allows you to
 
 ## 🚀 Live Demo<a name="live-demo"></a>
 
-- [Live Demo Link](https://codewithhyder.github.io/to-do-list-final-new/dist/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,9 +143,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Preserve data in the browser ]**
-- [ ] **[Validate contact form ]**
-- [ ] **[ Preserve data in the browser]**
+- [ ] **[Add APIs ]**
+- [ ] **[]**
+- [ ] **[]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
