@@ -1,3 +1,4 @@
 import './styles.css';
-import submitFunc from './submitscores.js'; 
+import submitFunc from './submitscores.js';
+
 submitFunc();

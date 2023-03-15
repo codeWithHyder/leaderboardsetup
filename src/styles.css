@@ -23,6 +23,7 @@
   width: 80%;
   margin: 0 auto;
 }
+
 .heading h1 {
   padding-left: 2rem;
 }
@@ -33,7 +34,8 @@
   flex-direction: column;
   width: 50%;
   height: 70%;
-  /*background-color: aquamarine;*/
+
+  /* background-color: aquamarine; */
 }
 
 .recentScores .recentscores-title {
@@ -43,7 +45,8 @@
   margin-bottom: 1rem;
   width: 60%;
   margin-left: 2rem;
-  /*border: 1px solid; */
+
+  /* border: 1px solid; */
 }
 
 .recentscores-title h4 {
@@ -59,10 +62,10 @@
   cursor: pointer;
 }
 
-.recentscores-title i{
-    width: 2rem;
-    height: 2rem;
-    cursor: pointer;
+.recentscores-title i {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
 }
 
 .recentScores-list {
@@ -87,7 +90,8 @@
 .addScores {
   width: 40%;
   height: 70%;
-  /*background-color: brown;*/
+
+  /* background-color: brown; */
   margin-left: 2rem;
 }
 
@@ -99,8 +103,10 @@
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
- /* margin-bottom: 2rem; */
+
+  /* margin-bottom: 2rem; */
 }
+
 .addScores form input {
   width: 50%;
   height: 2rem;
@@ -115,5 +121,4 @@
   height: 2.5rem;
   margin-left: 25%;
   cursor: pointer;
-
 }
