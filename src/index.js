@@ -31,9 +31,14 @@ refresh.addEventListener('click', () => {
 
 submitButton.addEventListener('click', (e) => {
   e.preventDefault();
-  addScore(url, yourName.value, yourScore.value);
-  yourName.value = '';
-  yourScore.value = '';
+  if(yourName=='' || yourScore==0){
+    yourName.focus();
+  } else {
+    addScore(url, yourName.value, yourScore.value);
+    yourName.value = '';
+    yourScore.value = '';
+  }
+  
 });
 
 showScore();

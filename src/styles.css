@@ -1,3 +1,4 @@
+/* to remove default margin and padding and display font in poppins */
 * {
   padding: 0;
   margin: 0;
@@ -18,10 +19,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #e6e9ec;
+  background-color: #929599;
   padding-top: 2rem;
   width: 80%;
   margin: 0 auto;
+  padding: 0.3rem;
 }
 
 .heading h1 {
