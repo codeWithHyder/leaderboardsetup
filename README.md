@@ -73,7 +73,7 @@ and it is a simple website that displays list of name score of different people.
 
 ## 🚀 Live Demo<a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://codewithhyder.github.io/leaderboardsetup/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
