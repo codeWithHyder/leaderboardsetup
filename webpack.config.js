@@ -17,6 +17,7 @@ module.exports = {
   },
   optimization: {
     runtimeChunk: 'single',
+    minimize: false  
   },
   plugins: [
     new HtmlWebpackPlugin({
